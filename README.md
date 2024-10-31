@@ -1,5 +1,6 @@
 # hc-spooky-manor  
 a short retro themed point-and-click horror experience for hackclub's boba manor!  
+features possibly the most inefficient code ive ever written  
 for best experience, play on a 16:9 monitor
 
 ## Acknowledgements  

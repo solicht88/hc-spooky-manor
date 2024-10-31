@@ -24,14 +24,14 @@
                 <img id="win-2" src="images/art/win_2.png">
             </div>
             <div class="icon-buttons">
-                <button class="click-icon" id="img-1" onclick="openWindow()"></button>
-                <button class="click-icon" id="img-2"></button>
-                <button class="click-icon" id="img-3"></button>
-                <button class="click-icon" id="eye-btn"></button>
+                <button class="click-icon" id="img-1" onclick="openWindow(this.id)"></button>
+                <button class="click-icon" id="img-2" onclick="openWindow(this.id)"></button>
+                <button class="click-icon" id="img-3" onclick="openWindow(this.id)"></button>
+                <button class="click-icon" id="eye-btn" onclick="openPassword()"></button>
             </div>
             <div class="large-popup" id="large-popup">
-                <h1>Memory</h1>
-                <img id="large-window" src="">
+                <button class="close-win" onclick="closeWindow()">x</button>
+                <img id="large-img" src="">
             </div>
         </div>
     </body>
