@@ -9,7 +9,7 @@ features possibly the most inefficient code ive ever written
 - font from https://fonts.google.com/specimen/Tiny5  
 ### Sound Effects
 - https://freesound.org/people/joedeshon/sounds/259252/
-- https://freesound.org/people/dichardson/sounds/570968/
+- https://freesound.org/people/dichardson/sounds/570968/  
 (to be added in the future if i ever figure it out)
 
 ## Walkthrough Guide
