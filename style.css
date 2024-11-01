@@ -96,6 +96,15 @@ body {
     margin-top: 18vh;
 }
 
+#win-3 {
+    scale: 0.23;
+    place-self: center;
+    grid-column: 4;
+    grid-row: 4;
+    margin-top: 17vh;
+    margin-right: 9vw;
+}
+
 .icon-buttons {
     position: absolute;
     display: grid;
