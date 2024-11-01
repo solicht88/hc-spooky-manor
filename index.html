@@ -19,7 +19,7 @@
         </div>
         <div class="desktop">
             <div class="reg-elements">
-                <h1>October 31, XXXX</h1>
+                <h1 id="date">October 31, XXXX</h1>
                 <img id="win-1" src="images/art/win_1.png">
                 <img id="win-2" src="images/art/win_2.png">
                 <img id="win-3" src="images/art/win_3.png">
@@ -33,6 +33,16 @@
             <div class="large-popup" id="large-popup">
                 <button class="close-win" onclick="closeWindow()">x</button>
                 <img id="large-img" src="">
+            </div>
+            <div class="password-win" id="password-win">
+                <button class="close-pass" onclick="closePassword()">x</button>
+                <h1 id="pass-hint">hint: what is my friend's name?</h1>
+                <label id="pass-label" for="password">password: </label>
+                <input type="text" id="password" required minlength="1" maxlength="8">
+                <button id="submit-pass" onclick="checkPassword()">SUBMIT</button>
+            </div>
+            <div class="backdoor">
+                <a href="https://hack.club/boba-manor">backdoor</a>
             </div>
         </div>
     </body>
